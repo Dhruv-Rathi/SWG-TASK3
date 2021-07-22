@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dhruvrathiandroid.swgtask3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/swgicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/swgicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SWGTASK3">
+        <activity
+            android:name=".StudyMaterial"
+            android:label="@string/title_activity_study_material"
+            android:theme="@style/Theme.SWGTASK3.NoActionBar"></activity>
+        <activity android:name=".ClubsSocieties"
+            android:label="Clubs and Societies"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
