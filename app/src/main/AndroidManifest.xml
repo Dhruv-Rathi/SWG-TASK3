@@ -10,11 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SWGTASK3">
         <activity
+            android:name=".SocsForm"
+            android:label="Societies Form"
+            android:exported="true" />
+        <activity
             android:name=".StudyMaterial"
             android:label="@string/title_activity_study_material"
-            android:theme="@style/Theme.SWGTASK3.NoActionBar"></activity>
-        <activity android:name=".ClubsSocieties"
-            android:label="Clubs and Societies"></activity>
+            android:theme="@style/Theme.SWGTASK3.NoActionBar" />
+        <activity
+            android:name=".ClubsSocieties"
+            android:label="Clubs and Societies" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +27,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service android:name=".services.MyFirebaseInstanceService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1025111810219",
+    "project_id": "swg-task4",
+    "storage_bucket": "swg-task4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025111810219:android:cc3c271284a60d9c2297ee",
+        "android_client_info": {
+          "package_name": "com.dhruvrathiandroid.swgtask3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025111810219-nqie1pu3ru0le7a3cda7cm1a9rjdguru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dhruvrathiandroid.swgtask3",
+            "certificate_hash": "e18ebbcaaee291475649e79fc31a543cab071925"
+          }
+        },
+        {
+          "client_id": "1025111810219-o5tkrlj3fbgimdtcp0qid20g28o8hbt4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBpY0-KXKM7uNFXHX7hc5EIx6RiBAKyDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025111810219-o5tkrlj3fbgimdtcp0qid20g28o8hbt4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
